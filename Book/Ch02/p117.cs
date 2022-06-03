@@ -8,7 +8,7 @@ namespace Book.Ch02
 {
     internal class p117
     {
-        static void Main(string[] args)
+        static void Main117(string[] args)
         {
             int output = int.MinValue;
             Console.WriteLine(-output);
