@@ -8,7 +8,7 @@ namespace Book.Ch03
 {
     internal class p135
     {
-        static void Main(string[] args)
+        static void Main135(string[] args)
         {
             if(DateTime.Now.Hour < 11)
             {
