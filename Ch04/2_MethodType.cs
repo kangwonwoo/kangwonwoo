@@ -13,7 +13,7 @@ namespace Ch04
 {
     internal class MethodType
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             // 메서드 호출
             double y1 = Type1(0.1);  // 인자값 0.1 대입
@@ -31,7 +31,6 @@ namespace Ch04
             Type4();
         }
 
-
         // Type1 : 매개변수 O, 리턴값O
         public static double Type1(double x)
         {
@@ -42,10 +41,14 @@ namespace Ch04
         // Type2 : 매개변수 O, 리턴값X
         public static void Type2(bool status)
         {
-            if(status)
+            if (status)
+            {
                 Console.WriteLine("참 입니다.");
+            }
             else
+            {
                 Console.WriteLine("거짓 입니다.");
+            }
         }
 
         // Type3 : 매개변수 X, 리턴값O
