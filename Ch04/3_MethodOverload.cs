@@ -17,12 +17,12 @@ namespace Ch04
 {
     internal class MethodOverload
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             int r1 = Plus(1, 2);
-            int r2 = Plus2(1, 2, 3);
-            double r3 = Plus3(1.01, 2.3);
-            string r4 = Plus4("Hello ", "World");
+            int r2 = Plus(1, 2, 3);
+            double r3 = Plus(1.01, 2.3);
+            string r4 = Plus("Hello ", "World");
 
             Console.WriteLine("r1 : " + r1);
             Console.WriteLine("r2 : " + r2);
@@ -35,17 +35,17 @@ namespace Ch04
                 return a + b;
             }
 
-            public static int Plus2(int a, int b, int c)
+            public static int Plus(int a, int b, int c)
             {
                 return a + b + c;
             }
 
-            public static double Plus3(double a, double b)
+            public static double Plus(double a, double b)
             {
                 return a + b;
             }
 
-            public static string Plus4(string a, string b)
+            public static string Plus(string a, string b)
             {
                 return a + b;
             }
