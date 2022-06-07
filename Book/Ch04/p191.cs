@@ -6,17 +6,20 @@ using System.Threading.Tasks;
 
 namespace Book.Ch04
 {
-    internal class p179
+    internal class p191
     {
-        static void Main179(string[] args)
+        static void Main(string[] args)
         {
-            for (int i = 1; i < 10; i++)
+            int i = 10;
+            while (i --> 0)
             {
-                if ( i % 2 == 0)
-                {
-                    continue;
-                }
                 Console.WriteLine(i);
+            }
+
+            int i2 = 10;
+            while ((i--) > 0)
+            {
+                Console.WriteLine(i2);
             }
         }
     }
