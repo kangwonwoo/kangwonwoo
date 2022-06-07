@@ -8,5 +8,7 @@ namespace Book.Ch04
 {
     internal class p173
     {
+        // for (int i = 0; i< length; i++)
+        // {}
     }
 }

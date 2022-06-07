@@ -8,7 +8,7 @@ namespace Book.Ch04
 {
     internal class p169
     {
-        static void Main(string[] args)
+        static void Main169(string[] args)
         {
             long start = DateTime.Now.Ticks;  // 변수를 선언합니다.
             long count = 0;
