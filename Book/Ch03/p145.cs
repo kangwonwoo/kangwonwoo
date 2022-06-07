@@ -8,7 +8,7 @@ namespace Book.Ch03
 {
     internal class p145
     {
-        static void Main(string[] args)
+        static void Main145(string[] args)
         {
             Console.Write("입력: ");
             string line = Console.ReadLine();
