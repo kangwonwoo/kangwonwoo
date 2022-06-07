@@ -13,7 +13,7 @@ namespace Ch03
 {
     internal class _4_While
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             // 1부터 10까지 합
             int sum = 0;
