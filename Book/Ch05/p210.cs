@@ -8,7 +8,7 @@ namespace Book.Ch05
 {
     internal class p210
     {
-        static void Main(string[] args)
+        static void Main210(string[] args)
         {
             Random random = new Random();
             Console.WriteLine(random.NextDouble() * 10);
