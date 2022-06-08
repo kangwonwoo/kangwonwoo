@@ -125,7 +125,11 @@ namespace Practice
             Console.WriteLine(message[1]);     // 녕
             Console.WriteLine(message[2]);     // 하
 
-            
+            bool one = 10 < 0;
+            bool other = 20 > 100;
+
+            Console.WriteLine(one);
+            Console.WriteLine(other);
         }
     }
 }
