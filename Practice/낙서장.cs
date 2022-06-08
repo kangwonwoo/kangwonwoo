@@ -125,11 +125,19 @@ namespace Practice
             Console.WriteLine(message[1]);     // 녕
             Console.WriteLine(message[2]);     // 하
 
-            bool one = 10 < 0;
-            bool other = 20 > 100;
+            bool a6 = 10 < 0;
+            bool b6 = 20 > 100;
 
-            Console.WriteLine(one);
-            Console.WriteLine(other);
+            Console.WriteLine(a6);
+            Console.WriteLine(b6);
+
+            int output = 0;
+            output += 52;
+            output += 273;
+            output += 103;
+
+            Console.WriteLine(output);
+
         }
     }
 }
