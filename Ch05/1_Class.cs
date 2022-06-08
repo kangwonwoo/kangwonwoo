@@ -9,12 +9,16 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/08
  * 이름 : 강원우
  * 내용 : 클래스와 객체 실습하기 교재 p203
+ * 
+ * 클래수와 객체
+ * - 클래스는 객체를 생성하는 구조체이며, 필드와 메서들 구성된다.
+ * - 객체는 클래스의 실제 인스턴스이며, new 연산자로 생성한다.
  */
 namespace Ch05
 {
     internal class _1_Class
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 객체 생성  // --> (Car를 참조연산자(ctrl + .) 키로 출처 사용)
             Car sonata = new Car();
@@ -41,6 +45,8 @@ namespace Ch05
             bmw.SpeedUp(90);
             bmw.SpeedDown(30);
             bmw.Show();
+
+
 
             // Account 객체 생성
             Account kb = new Account();
