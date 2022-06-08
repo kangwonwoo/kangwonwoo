@@ -9,12 +9,17 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/08
  * 이름 : 강원우
  * 내용 : 캡슐화 실습하기 교재 p203
+ * 
+ * 캡슐화(Encapsulation)
+ * - 캡슐화는 객체의 내용(필드)을 외부에서 참조하지 못하도록 객체의 정보를 은닉하는 특성을 말한다.
+ * - 캡슐화를 위한 접근 제한자 public, private, protected를 제공한다.
+ * - 은닉된 정보의 안전한 제공을 위해 Getter와 Setter를 제공한다.(프로퍼티)
  */
 namespace Ch05
 {
     internal class _2_Encaps
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             // 1. Sub2 private 하기 전
             //Account kb = new Account();
