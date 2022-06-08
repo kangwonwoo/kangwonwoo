@@ -12,7 +12,7 @@ namespace Book.Ch05
         int inTime;
         int outTime;
 
-        // 변수 만들기
+        // 변수 만들기  --> 수업예제 Ch05 참조
         int carNumberA;
         int inTimeA;
         int outTimeA;
