@@ -10,9 +10,9 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1. 152");
+            Console.WriteLine("1. 152");  // 152
 
-            Console.WriteLine("2. Hello C# Programing..!");
+            Console.WriteLine("2. Hello C# Programing..!");  // Hello C# Programing..!
 
             Console.WriteLine("3. "+(32 + 273));  // 305
 
@@ -63,20 +63,69 @@ namespace Practice
 
             Console.WriteLine('가' + '힣');  // 99235
 
-            Console.WriteLine(true);
-            Console.WriteLine(false);
+            Console.WriteLine(true);  // true
+            Console.WriteLine(false);  // false
 
-            Console.WriteLine(52 < 273);
-            Console.WriteLine(52 > 273);
+            Console.WriteLine(52 < 273);  // true
+            Console.WriteLine(52 > 273);  // false
 
-            Console.WriteLine(!true);
-            Console.WriteLine(!false);
-            Console.WriteLine(!(52 < 273));
-            Console.WriteLine(!(52 > 273));
+            Console.WriteLine(!true);  //false
+            Console.WriteLine(!false);  // true
+            Console.WriteLine(!(52 < 273));  // false
+            Console.WriteLine(!(52 > 273));  // true
 
-            Console.WriteLine(DateTime.Now.Hour < 3 || 8 < DateTime.Now.Hour);
-            Console.WriteLine(3 < DateTime.Now.Hour && DateTime.Now.Hour < 8);
+            Console.WriteLine(DateTime.Now.Hour < 3 || 8 < DateTime.Now.Hour);  // 시간대마다 다르다.
+            Console.WriteLine(3 < DateTime.Now.Hour && DateTime.Now.Hour < 8);  // 시간대마다 다르다.
 
+            int a1 = 273;
+            int b1 = 52;
+
+            Console.WriteLine(a1 + b1);  // 325
+            Console.WriteLine(a1 - b1);  // 221
+            Console.WriteLine(a1 * b1);  // 14196
+            Console.WriteLine(a1 / b1);  // 5
+            Console.WriteLine(a1 % b1);  // 13
+
+            int a2 = 2147483640;
+            int b2 = 52273;
+
+            Console.WriteLine(a2 + b2);  // -2147431383  --> int 범위의 한계를 넘어서 '오버플로우' 현상
+
+            int a3 = 2000000000;
+            int b3 = 1000000000;
+            Console.WriteLine(a3 + b3);  // -1294967296  --> 오버플로우
+
+            double a4 = 52.273;
+            double b4 = 103.32;
+
+            Console.WriteLine(a4 + b4);  // 155.593
+            Console.WriteLine(a4 - b4);  // -51.047
+            Console.WriteLine(a4 * b4);  // 5400.84636
+            Console.WriteLine(a4 / b4);  // 0.50593302361595
+
+            Console.WriteLine("int : "+ sizeof(int));         // int : 4
+            Console.WriteLine("long : "+ sizeof(long));       // long : 8
+            Console.WriteLine("double : "+ sizeof(double));   // double : 8
+            Console.WriteLine("float : "+ sizeof(float));     // float : 4
+            Console.WriteLine("char : "+ sizeof(char));       // char : 2
+
+            char a5 = 'a';
+            char b5 = 'b';
+
+            Console.WriteLine(a5 + b5);  // 195
+            Console.WriteLine(a5 - b5);  // -1
+            Console.WriteLine(a5 * b5);  // 9506
+            Console.WriteLine(a5 / b5);  // 0
+            Console.WriteLine(a5 % b5);  // 97
+
+            string message = "안녕하세요";
+
+            Console.WriteLine(message + "!");  // 안녕하세요!
+            Console.WriteLine(message[0]);     // 아
+            Console.WriteLine(message[1]);     // 녕
+            Console.WriteLine(message[2]);     // 하
+
+            
         }
     }
 }
