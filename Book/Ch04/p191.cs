@@ -8,7 +8,7 @@ namespace Book.Ch04
 {
     internal class p191
     {
-        static void Main(string[] args)
+        static void Main191(string[] args)
         {
             int i = 10;
             while (i --> 0)
