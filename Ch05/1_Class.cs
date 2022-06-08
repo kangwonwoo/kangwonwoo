@@ -30,7 +30,7 @@ namespace Ch05
             sonata.SpeedDown(20);
             sonata.Show();
 
-            // 객체 생성(bmw, 검정색)
+            // 예) 객체 생성(bmw, 검정색)
             Car bmw = new Car();
 
             bmw.name = "bmw";
@@ -42,6 +42,28 @@ namespace Ch05
             bmw.SpeedDown(30);
             bmw.Show();
 
+            // Account 객체 생성
+            Account kb = new Account();
+            kb.bank = "국민은행";
+            kb.id = "101-12-1234";
+            kb.name = "김유신";
+            kb.balance = 10000;
+
+            // 기능
+            kb.Deposit(25000);
+            kb.Withdraw(5000);
+            kb.Show();
+
+            // 예) nh 객체 생성
+            Account nh = new Account();
+            nh.bank = "농협";
+            nh.id = "120-11-1424";
+            nh.name = "김춘추";
+            nh.balance = 30000;
+
+            nh.Deposit(70000);
+            nh.Withdraw(20000);
+            nh.Show();
         }
     }
 }
