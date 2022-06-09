@@ -4,36 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ch05.Sub2
+namespace Ch05.Sub4
 {
     internal class Car
     {
         // 속성(필드)
-        private string name;
-        private string color;
-        private int speed;  //  (this.speed)
-
-        // Getter, Setter --> (C# 에서는 프로퍼티 라고함)
-        public string Name { get { return name;} set{name = value;}}
-        public string Color { get { return color;} set{color = value;}}
-        public int Speed { 
-            get 
-            { 
-                return Speed;
-            } 
-            set
-            {
-                if(value < 0)
-                {
-                    Console.WriteLine("speed는 0보다 작을 수 없습니다.");
-                    speed = 0; 
-                }
-                else 
-                {
-                    speed = value;
-                }
-            }
-        }
+        protected string name;  // private에서 protected를 사용해줌으로써 상속 기능만은 사용 가능하다. 아직 외부에서는 사용불가
+        protected string color;
+        protected int speed;  //  (this.speed)
 
         // 생성자
         public Car(string name, string color, int speed)
@@ -41,12 +19,6 @@ namespace Ch05.Sub2
             this.name = name;
             this.color = color;
             this.speed = speed;
-        }
-
-        // 소멸자
-        ~Car()
-        {
-            Console.WriteLine("{0} Car 소멸자 실행 ...", name);
         }
 
         // 기능(메서드)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ch05.Sub4;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -57,6 +58,24 @@ namespace Ch05
             Console.WriteLine("c1 Minus : "+c1.Minus());
             Console.WriteLine("c2 Plus : "+c2.Plus());
             Console.WriteLine("c2 Minus : "+c2.Minus());
+
+            // Car 상속 객체 생성
+            Sedan sedan = new Sedan("그랜저", "검정색", 0, 2000);
+            Truck truck = new Truck("봉고", "파란색", 0, 1);
+
+            sedan.SpeedUp(40);
+            sedan.Show();
+
+            truck.SpeedUp(70);
+            truck.Show();
+
+            // Account 상속객체 생성
+            StockAccount kb = new StockAccount("KB증권", "101-11-1021", "김유신", 1000, "삼성전자", 0, 0);
+            kb.Deposit(1000000);
+            kb.Buy(10, 70000);
+            kb.Sell(5, 75000);
+            kb.Show();
+
         }
     }
 }
