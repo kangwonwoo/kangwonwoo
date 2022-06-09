@@ -6,10 +6,26 @@ using System.Threading.Tasks;
 
 namespace Book.Ch07
 {
-    internal class p337
+    internal class p340
     {
-        // public : 전부 공개
-        // private : 전부 차단
-        // protected : 부모 자식관계에서 공개
+        static void Main340(string[] args)
+        {
+            //List<Dog> Dogs = new List<Dog>();
+           //List<Cat> Cats = new List<Cat>();
+
+           // foreach (var item in Dogs)
+            //{
+            //    item.Eat();
+            //    item.Sleep();
+            //    item.Bark();
+            //}
+
+            //foreach (var item in Cats)
+            //{
+              //  item.Eat();
+                //item.Sleep();
+               // item.Meow();
+            
+        }
     }
 }

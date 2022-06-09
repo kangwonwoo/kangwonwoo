@@ -18,8 +18,8 @@ namespace Book.Ch07
         {
             public void Test()
             {
-                Eat();
-                    Sleep();
+                base.Eat();
+                base.Sleep();
             }
         }
     }

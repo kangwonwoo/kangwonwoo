@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch07
+namespace Book.Ch06
 {
-    internal class p339
+    internal class p264
     {
     }
 }

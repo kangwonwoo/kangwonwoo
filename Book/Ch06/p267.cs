@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Book.Ch06
 {
-    internal class p266
+    internal class p267
     {
         class Program
         {
             class Test
             {
-                public int Power(int x)
+                public int Multi(int x, int y)
                 {
-                    return x * x;
+                    return x * y;
                 }
             }
 
-            static void Main266(string[] args)
+            static void Main267(string[] args)
             {
                 Test test = new Test();
-                Console.WriteLine(test.Power(10));
-                Console.WriteLine(test.Power(20));
+                Console.WriteLine(test.Multi(52, 273));
+                Console.WriteLine(test.Multi(103, 32));
             }
         }
     }
