@@ -8,6 +8,10 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/09
  * 이름 : 강원우
  * 내용 : 오버라이드 실습하기 교재 p361
+ * 
+ * 오버라이드(Override)
+ * - 부모 클래스의 메서드를 자식 클래스에서 다시 재정의(덮어쓰기) 하는 것
+ * - 오버라이드를 통해 다형성을 실현한다.
  */
 namespace Ch05
 {
@@ -71,7 +75,7 @@ namespace Ch05
 
     internal class _5_Override
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             AAA a = new AAA();
             BBB b = new BBB();
