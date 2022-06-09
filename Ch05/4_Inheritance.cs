@@ -9,6 +9,10 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/09
  * 이름 : 강원우
  * 내용 : 클래스 상속 실습하기 교재 p331
+ * 
+ * 상속
+ * - 기존 클래스의 속성과 기능을 그대로 파생 클래스로 물려줘 클래스를 확장하는 문법
+ * - 공통적인 내용을 부모 클래스에 두고 자식 클래스에서 상속 받아 일관성있고 효율적인 프로그래밍 수행
  */
 namespace Ch05
 {
@@ -48,7 +52,7 @@ namespace Ch05
 
     internal class _4_Inheritance
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             // 상속 객체 재생
             Child c1 = new Child(1, 2, 3, 4);
