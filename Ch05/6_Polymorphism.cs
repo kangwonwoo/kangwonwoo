@@ -9,12 +9,16 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/09
  * 아름 : 강원우
  * 내용 : 다형성 실습하기 교재 p340
+ * 
+ * 다형성(Polymorphism)
+ * - 상속관계에서 부모 클래스의 기능이 자식 클래스에서 여러 기능으로 변하는 특성
+ * - 생성된 객체의 타입선언을 부모 클래스 타입으로 선언
  */
 namespace Ch05
 {
     internal class _6_Polymorphism
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             // 다형성을 적용한 객체 생성
             Animal a1 = new Tiger();
