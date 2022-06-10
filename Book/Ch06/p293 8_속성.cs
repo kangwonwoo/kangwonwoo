@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace Book.Ch06
 {
-    internal class p264
+    internal class p293
     {
+        // Box 클래스
+        class Box
+        {
+            public int width;
+            public int height;
+
+            public Box(int width, int height)
+            {
+                this.width = width;
+                this.height = height;
+            }
+
+            public int Area()
+            {
+                return this .width * this.height;
+            }
+        }
     }
 }
