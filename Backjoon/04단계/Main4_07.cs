@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Backjoon._01단계
+namespace Backjoon._04단계
 {
-    internal class Main1_04
+    internal class Main4_07
     {
-        static void Main4(string[] args)
-        {// "\"\"\""
-        }
     }
 }

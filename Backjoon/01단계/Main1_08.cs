@@ -8,7 +8,7 @@ namespace Backjoon._01단계
 {
     internal class Main1_08
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             string[] num = Console.ReadLine().Split();
 
