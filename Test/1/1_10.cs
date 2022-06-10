@@ -13,7 +13,7 @@ namespace Test._1
 {
     internal class _1_10
     {
-        static void Main(string[] args)
+        static void Main10(string[] args)
         {
             int n1 = 0;
             int n2 = 1;
