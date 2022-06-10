@@ -20,7 +20,7 @@ namespace Book.Ch06
                 input.value = 20;
             }
 
-            static void Main(string[] args)
+            static void Main304(string[] args)
             {
                 Test test = new Test();
                 test.value = 10;
