@@ -32,7 +32,7 @@ namespace Book.Ch06
             }
 
 
-            static void Main(string[] args)
+            static void Main276(string[] args)
             {
                 // int
                 Console.WriteLine(MyMath.Abs(52));
