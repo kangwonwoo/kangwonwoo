@@ -22,7 +22,7 @@ namespace Book.Ch06
 
         class Program
         {
-            static void Main(string[] args)
+            static void Main308(string[] args)
             {
                 Fibonacci fibo = new Fibonacci();
                 Console.WriteLine(Fibonacci.Get(1));

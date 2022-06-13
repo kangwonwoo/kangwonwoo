@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Book.Ch09
+{
+    internal class p425_1_인터페이스_소개
+    {
+    }
+}

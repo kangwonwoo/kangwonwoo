@@ -6,8 +6,40 @@ using System.Threading.Tasks;
 
 namespace Book.Ch06
 {
-    internal class p295
+    internal class p309
     {
-        // 겟터와 셋터 : 값을 넣고 빼는것이 가능해진다.
+        // 메모화
+        class Fibonacci
+        {
+            private static Dictionary<int, long> memo = new Dictionary<int, long>();
+            public static long Get(int i)
+            {
+                // 기본 값
+                if(i < 0) { return 0; }
+                if(i == 1) { return 1; }
+
+                // 이미 계산했던 값인지 확인
+                if(memo.ContainsKey(i)) 
+                {
+                    return memo[i]; 
+                }
+                else
+                {
+                    // 계산하지 않았다면 계산
+                    long value = Get(i - 2) + Get(i - 1);
+                    memo[i] = value;
+                    return value;
+                }
+            }
+        }
+
+        class Program
+        {
+            static void Main309(string[] args)
+            {
+                Console.WriteLine(Fibonacci.Get(40));
+                Console.WriteLine(Fibonacci.Get(100));
+            }
+        }
     }
 }

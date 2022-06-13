@@ -10,10 +10,13 @@ namespace Book.Ch07
     {
         static void Main340(string[] args)
         {
-            //List<Dog> Dogs = new List<Dog>();
-           //List<Cat> Cats = new List<Cat>();
+            //Animal dog = new Dog();
+            //Animal cat = new Cat();
 
-           // foreach (var item in Dogs)
+            //List<Dog> Dogs = new List<Dog>();
+            //List<Cat> Cats = new List<Cat>();
+
+            //foreach (var item in Dogs)
             //{
             //    item.Eat();
             //    item.Sleep();
@@ -22,10 +25,10 @@ namespace Book.Ch07
 
             //foreach (var item in Cats)
             //{
-              //  item.Eat();
-                //item.Sleep();
-               // item.Meow();
-            
+            //    item.Eat();
+            //    item.Sleep();
+            //    item.Meow();
+            //}
         }
     }
 }
