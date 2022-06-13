@@ -27,8 +27,6 @@ namespace Ch06.Sub1
             base.speed += speed;
         }
         
-
-
         public override void Show()
         {
             Console.WriteLine("================");
