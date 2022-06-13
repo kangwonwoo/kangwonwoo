@@ -20,11 +20,11 @@ namespace Backjoon._02단계
                 Console.WriteLine(">");
             }
 
-            if (n1 < n2)
+            else if (n1 < n2)
             {
                 Console.WriteLine("<");
             }
-            if (n1 == n2)
+            else
             {
                 Console.WriteLine(" == ");
             }

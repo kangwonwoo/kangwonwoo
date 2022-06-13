@@ -11,23 +11,23 @@ namespace Backjoon._02단계
         static void Main2(string[] args)
         {
             int score = int.Parse(Console.ReadLine());
-            char grade;
+            
             
             if(90 <= score) {
-                grade = 'A';
-            }else if(80 <= score && score <= 89) {
-                grade = 'B';
+                Console.WriteLine("A");
+            }else if(80 <= score) {
+                Console.WriteLine("B");
             }
-            else if (70 <= score && score <= 79) {
-                grade = 'C';
+            else if (70 <= score) {
+                Console.WriteLine("C");
             }
-            else if (60 <= score && score <= 69) {
-                grade = 'D';
+            else if (60 <= score) {
+                Console.WriteLine("D");
             } else {
-                grade = 'F';
+                Console.WriteLine("F");
             }
 
-            Console.WriteLine(grade);
+            Console.WriteLine();
         }
     }
 }

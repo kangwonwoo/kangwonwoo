@@ -8,5 +8,9 @@ namespace Backjoon._02단계
 {
     internal class _Main2_05
     {
+        static void Main5(string[] args)
+        {
+
+        }
     }
 }

@@ -11,7 +11,11 @@ namespace Backjoon._02단계
         static void Main3(string[] args)
         {
             int year = int.Parse(Console.ReadLine());
-            if((year % 4 == 0 && year % 100 == 0) || year % 400 == 0)
+            if(year % 4 == 0 && year % 100 == 0) 
+            {
+                Console.WriteLine("1");
+            }
+            else if (year % 400 == 0)
             {
                 Console.WriteLine("1");
             }

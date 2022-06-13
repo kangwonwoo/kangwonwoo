@@ -12,8 +12,8 @@ namespace Backjoon._01단계
         {
             string[] num = Console.ReadLine().Split();
 
-            int n1 = int.Parse(num[0]);
-            int n2 = int.Parse(num[1]);
+            float n1 = float.Parse(num[0]);
+            float n2 = float.Parse(num[1]);
 
             Console.WriteLine(n1 / n2);
         }
