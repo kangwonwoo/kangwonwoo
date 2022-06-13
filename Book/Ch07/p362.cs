@@ -6,36 +6,14 @@ using System.Threading.Tasks;
 
 namespace Book.Ch07
 {
-    internal class p359
+    internal class p362
     {
-        // 숨겨진 멤버를 찾는 방법
+        // new 메서드를 사용한 하이딩 -> 하이딩은 '같은 이름으로 멤버를 만들어 부모의 멤버를 숨긴다'
         class Program
         {
             class Parent
             {
                 public int variable = 273;
-            }
-
-            class Child : Parent
-            {
-                public string variable = "shadowing";
-            }
-
-            static void Main359(string[] args)
-            {
-                Child child = new Child();
-                Console.WriteLine(child.variable);
-
-                Child child1 = new Child();
-                Console.WriteLine(((Parent)child).variable);
-            }
-        }
-
-        // 메서드 하이딩
-        class Program1
-        {
-            class Parent
-            {
                 public void Method()
                 {
                     Console.WriteLine("부모의 메서드");
@@ -44,13 +22,14 @@ namespace Book.Ch07
 
             class Child : Parent
             {
-                public void Method()
+                public new string variable = "hiding";
+                public new void Method()
                 {
                     Console.WriteLine("자식의 메서드");
                 }
             }
 
-            static void Main359(string[] args)
+            static void Main362(string[] args)
             {
                 Child child = new Child();
                 child.Method();

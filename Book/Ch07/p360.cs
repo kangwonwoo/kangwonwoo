@@ -6,31 +6,8 @@ using System.Threading.Tasks;
 
 namespace Book.Ch07
 {
-    internal class p359
+    internal class p360
     {
-        // 숨겨진 멤버를 찾는 방법
-        class Program
-        {
-            class Parent
-            {
-                public int variable = 273;
-            }
-
-            class Child : Parent
-            {
-                public string variable = "shadowing";
-            }
-
-            static void Main359(string[] args)
-            {
-                Child child = new Child();
-                Console.WriteLine(child.variable);
-
-                Child child1 = new Child();
-                Console.WriteLine(((Parent)child).variable);
-            }
-        }
-
         // 메서드 하이딩
         class Program1
         {
@@ -57,5 +34,9 @@ namespace Book.Ch07
                 ((Parent)child).Method();
             }
         }
+
+        // 'Child.Method()은 상속된 Parent.Method() 멤버를 숨깁니다. 숨기려면 new 키워드를 사용하십시오.' 라고 되어있다.
+        // - 이 말은 Method() 메서드가 하이딩 되었다는 말이다.
+        // - 메서드는 변수와 다르게 출동이 발생할 때 하이딩할지 오버라이딩할지를 결정할 수 있다.
     }
 }
