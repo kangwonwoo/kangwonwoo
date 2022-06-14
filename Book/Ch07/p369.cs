@@ -16,12 +16,12 @@ namespace Book.Ch07
                 public void Test() { }
             }
 
-            class Child
+            class Child   // : Parent  --> 여기서 오류 발생
             {
                 public void Test() { }
             }
 
-            static void Main(string[] args)
+            static void Main369(string[] args)
             {
                 Parent parent = new Parent();
                 Child child = new Child();

@@ -6,10 +6,29 @@ using System.Threading.Tasks;
 
 namespace Book.Ch07
 {
-    internal class p368
+    internal class p372
     {
-        // sealed 메서드 : 클래스와 메서드 앞에 적용하는 키워드
-        // - 클래스에 적용하면 정대 상속 X, 메서드에 적용하면 더 이상 오버라이딩 X
+        // abstract 메서드
+        class Program
+        {
+            abstract class Parent
+            {
+                //public abstract void Test() { }   -> 오류
+            }
 
+            class Child : Parent
+            {
+                public void Test() { }  // 오류 
+            }
+
+            static void Main372(string[] args)
+            {
+                // Parent parent = new Parent();  --> 오류 발생
+                Child child = new Child();
+
+                // parent.Test();
+                child.Test();
+            }
+        }
     }
 }

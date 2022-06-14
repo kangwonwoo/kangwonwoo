@@ -6,28 +6,24 @@ using System.Threading.Tasks;
 
 namespace Book.Ch07
 {
-    internal class p369
+    internal class p370
     {
-        // sealed 클래스 오류
+        // sealed 메서드 오류
         class Program
         {
-            sealed class Parent
+            class Parent
             {
-                public void Test() { }
+                public virtual void Test() { }
             }
 
-            class Child
+            class Child : Parent
             {
-                public void Test() { }
+                sealed public override void Test() { }
             }
 
-            static void Main(string[] args)
+            class GrandChild : Child
             {
-                Parent parent = new Parent();
-                Child child = new Child();
-
-                parent.Test();
-                child.Test();
+                //public override void Test() { }  -> 오류 발생
             }
         }
     }
