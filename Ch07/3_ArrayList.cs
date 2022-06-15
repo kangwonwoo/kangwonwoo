@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ch07.Sub1;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,10 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/15 
  * 이름 : 강원우
  * 내용 : 컬렌션 스택 실습
+ * 
+ * ArrayList
+ * - 배열과 유사한 선형 자료구조
+ * - List는 ArrayList를 일반화 시킨 자료구조 ArrayList보다 더 나은 성능
  */
 namespace Ch07
 {
@@ -18,7 +23,7 @@ namespace Ch07
         // ( 입력되는 데이터에 따라 크기가 늘어나며 각 데이터를 처리 할 수 있는 기능 제공
         // List는(제네릭 클래스) ArrayList를 일반화 시킨 컬렉션
 
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             ///////////////////////////////////////
             // ArrayList 생성
@@ -119,6 +124,23 @@ namespace Ch07
             }
             Console.WriteLine();
 
+
+            // 사과 객체 리스트
+            List<Apple> list5 = new List<Apple>();
+
+            list5.Add(new Apple("한국", 3000));
+            list5.Add(new Apple("미국", 2000));
+            list5.Add(new Apple("일본", 1000));
+
+            // 사과 데이터 출력
+            Apple a1 = list5[0];
+            a1.show();
+            list5[1].show();
+            list5[2].show();
+
+
+            // HashTable은 키와 값(key-value)의 쌍으로 이루어진 자료 구조
+            // table : 표를 나타냄
         }
     }
 }
