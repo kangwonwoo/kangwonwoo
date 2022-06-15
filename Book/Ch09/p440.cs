@@ -14,15 +14,20 @@ namespace Book.Ch09
 
             class Child : Parent, IDisposable, IComparable  // 한 개의 클래스와 두 개의 인터페이스를 상속받는다.
             {
-                public void Dispose()
+                public void Dispose()                       // IDispose 인터페이스 구현
                 {
                     throw new NotImplementedException();
                 }
 
-                public int CompareTo(object? obj)
+                public int CompareTo(object? obj)           // IComparable 인터페이스 구현
                 {
                     throw new NotImplementedException();
                 }
+            }
+
+            static void Main440(string[] args)
+            {
+
             }
         }
     }
