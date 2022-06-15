@@ -46,7 +46,7 @@ namespace Book.Ch08
             }
         }
 
-        static void Main(string[] args)
+        static void Main411(string[] args)
         {
             // 클래스
             PointClass pointClassA = new PointClass(10, 20);
