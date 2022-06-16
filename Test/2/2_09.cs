@@ -13,7 +13,7 @@ namespace Test._2
 {
     internal class _2_09
     {
-        static void Main(string[] args)
+        static void Main9(string[] args)
         {
             Console.WriteLine("3! = "+factorial(3));
             Console.WriteLine("4! = "+factorial(4));
