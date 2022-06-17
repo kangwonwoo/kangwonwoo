@@ -32,8 +32,8 @@ namespace Test._3
 
         static void Main1(string[] args)
         {
-            Name kim = new Name("김유신", 23);
-            Name lee = new Name("이순신", 31);
+            _3_01 kim = new _3_01("김유신", 23);
+            _3_01 lee = new _3_01("이순신", 31);
 
             kim.Show();
             lee.Show();

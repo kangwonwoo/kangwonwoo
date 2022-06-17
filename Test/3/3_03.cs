@@ -24,7 +24,7 @@ namespace Test._3
             this.price = price;
         }
 
-        public void Drive()
+        private void Drive()
         {
             Console.WriteLine(name + " 운행 중...");
         }
@@ -40,7 +40,7 @@ namespace Test._3
     }
     internal class _3_03
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             Car sonata;
             Car bmw;

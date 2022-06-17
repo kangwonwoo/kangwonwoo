@@ -11,12 +11,12 @@ using System.Threading.Tasks;
  */
 namespace Test._3
 {
-    internal class _3_02
+    class King
     {
         private string name;
         private int year;
 
-        public King(int year)
+        public King(int year) : this("정조")
         {
             this.year = year;
         }
