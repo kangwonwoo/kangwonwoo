@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Book.Ch09
+{
+    internal class p448_6_위도_폼
+    {
+    }
+}
