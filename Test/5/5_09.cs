@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*
  * 날짜 : 2022/06/23
  * 이름 : 강원우
- * 내용 : 스탣 연습문제
+ * 내용 : 스택 연습문제
  */
 namespace Test._5
 {
