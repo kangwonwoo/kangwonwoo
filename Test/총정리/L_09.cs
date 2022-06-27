@@ -16,7 +16,7 @@ namespace Test.총정리
         enum Size { Short, Tall, Grande, Venti};
         enum Coffee { Short = 3300, Tall = 3800, Grande = 4300, Venti = 4800};
 
-        static void Main(string[] args)
+        static void Main9(string[] args)
         {
             Console.WriteLine("커피 가격표");
 

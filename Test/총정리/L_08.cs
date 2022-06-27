@@ -29,6 +29,14 @@ namespace Test.총정리
 
             string str4 = string.Concat("안녕 ", name, "올해 ", age, "세 입니다.");
             Console.WriteLine(str1);
+
+            string[] animals = { "Tiger", "Eagle", "Shark", "Lion", "Rabbit" };
+
+            string result1 = string.Concat(animals);
+            Console.WriteLine(result1);
+
+            string result2 = string.Join("-", animals);
+            Console.WriteLine(result2);
         }
     }
 }
