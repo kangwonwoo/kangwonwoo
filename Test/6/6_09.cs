@@ -14,7 +14,7 @@ namespace Test._6
 {
     internal class _6_09
     {
-        static void Main(string[] args)
+        static void Main9(string[] args)
         {
             //  데이터베이스 접속 정보
             string server = "127.0.0.1";
@@ -64,7 +64,7 @@ namespace Test._6
                     {
                         conn.Open();
 
-                        MySqlCmmand cmd = conn.CreateCommand();
+                        MySqlCommand cmd = conn.CreateCommand();
                         cmd.CommandText = "INSERT INTO `user2`" +
                             "VALUES ('" + uid + "', '" + name + "', '" + hp + "', " + age + ")";
 
