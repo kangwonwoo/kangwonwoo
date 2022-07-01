@@ -62,18 +62,11 @@
 	- 3. Select       데이터베이스 프로그래밍
 
 ## Ch11.
-![Ch11_01](./Ch11/Ch11_01.PNG)
+![Ch11](./Ch11/Ch11_01.PNG)
 1. 프로젝트 유형
 	- WinForm 프로젝트
 2. 활용기술
 	- 컨트롤
-	
-![Ch11_02](./Ch11/Ch11_02.PNG)
-1. 프로젝트 유형
-	- WinForm 프로젝트
-2. 활용기술
-	- 컨트롤
-
 
 ## Project1. 계산기
 ![Project1](./Project1/Project1.PNG)
