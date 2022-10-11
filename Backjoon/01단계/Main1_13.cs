@@ -24,6 +24,20 @@ namespace Backjoon._01단계
             Console.WriteLine(num1 * n2);
             Console.WriteLine(num1 * n1);
             Console.WriteLine(num1 * num2);
+
+            namespace Backjoon._01단계
+    {
+        internal class Main1_03
+        {
+            static void Main3(string[] args)
+            {
+                Console.WriteLine("\\    /\\");
+                Console.WriteLine(" )  ( ')");
+                Console.WriteLine("(  /  ) ");
+                Console.WriteLine(" \\(__)|");
+            }
         }
+    }
+}
     }
 }

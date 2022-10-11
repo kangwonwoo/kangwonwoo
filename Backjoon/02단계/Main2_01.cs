@@ -10,7 +10,7 @@ namespace Backjoon._02단계
     {
         static void Main1(string[] args)
         {
-            string[] num = Console.ReadLine().Split();
+            string[] num = Console.ReadLine().Split(' ');
 
             int n1 = int.Parse(num[0]);
             int n2 = int.Parse(num[1]);
@@ -19,10 +19,9 @@ namespace Backjoon._02단계
             {
                 Console.WriteLine(">");
             }
-
             else if (n1 < n2)
             {
-                Console.WriteLine("<");
+                Console.WriteLine("<"); 
             }
             else
             {

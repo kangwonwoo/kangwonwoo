@@ -4,23 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Backjoon._01단계
+namespace Baekjoon_09
 {
-    internal class Main1_09
+    class Program
     {
-        static void Main9(string[] args)
+        static void Main(string[] args)
         {
-            string[] num = Console.ReadLine().Split();
-
-            int n1 = int.Parse(num[0]);
-            int n2 = int.Parse(num[1]);
-
-            Console.WriteLine(n1 + n2);
-            Console.WriteLine(n1 - n2);
-            Console.WriteLine(n1 * n2);
-            Console.WriteLine(n1 / n2);
-            Console.WriteLine(n1 % n2);
-
+            int y = int.Parse(Console.ReadLine());
+            int result = y - 543;
+            Console.WriteLine(result);
         }
     }
 }
