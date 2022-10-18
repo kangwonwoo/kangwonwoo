@@ -6,24 +6,30 @@ using System.Threading.Tasks;
 
 namespace Backjoon._02단계
 {
-    internal class _Main2_02
+    class Program
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             int score = int.Parse(Console.ReadLine());
-            
-            
-            if(90 <= score) {
+
+            if (90 <= score)
+            {
                 Console.WriteLine("A");
-            }else if(80 <= score) {
+            }
+            else if (80 <= score)
+            {
                 Console.WriteLine("B");
             }
-            else if (70 <= score) {
+            else if (70 <= score)
+            {
                 Console.WriteLine("C");
             }
-            else if (60 <= score) {
+            else if (60 <= score)
+            {
                 Console.WriteLine("D");
-            } else {
+            }
+            else
+            {
                 Console.WriteLine("F");
             }
 

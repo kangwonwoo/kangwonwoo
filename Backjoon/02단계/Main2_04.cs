@@ -6,34 +6,28 @@ using System.Threading.Tasks;
 
 namespace Backjoon._02단계
 {
-    internal class _Main2_04
+    class Program
     {
-        static void Main4(string[] args)
+        static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            
-            if (a > 0)
+            double X = double.Parse(Console.ReadLine());
+            double Y = double.Parse(Console.ReadLine());
+
+            if(X > 0 && Y > 0)
             {
-                if (b > 0)
-                {
-                    Console.WriteLine("1");
-                }
-                else if(b < 0)
-                {
-                    Console.WriteLine("4");
-                }
+                Console.WriteLine("1");
             }
-            else if (a < 0)
+            else if (X < 0 && Y > 0)
             {
-                if (b > 0)
-                {
-                    Console.WriteLine("2");
-                }
-                else if(b < 0)
-                {
-                    Console.WriteLine("3");
-                }
+                Console.WriteLine("2");
+            }
+            else if (X < 0 && Y < 0)
+            {
+                Console.WriteLine("3");
+            }
+            else if(X > 0 && Y < 0)
+            {
+                Console.WriteLine("4");
             }
         }
     }
